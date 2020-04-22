@@ -74,6 +74,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     dev.pm.dyn_samplingrate=1 \
     ro.opengles.version=196610 \
     ro.qualcomm.cabl=0
+    
+# Face Unlock
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.face.moto_unlock_service.cam_id=5
 
 # Factory reset partition
 PRODUCT_PROPERTY_OVERRIDES += \
