@@ -446,7 +446,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # TextClassifier
 PRODUCT_PACKAGES += \
-    textclassifier.bundle1
+     textclassifier.smartselection.bundle1
 
 # Thermal
 PRODUCT_PACKAGES += \
